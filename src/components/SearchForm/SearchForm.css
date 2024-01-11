@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.header {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
 .formContainer h1 {
   color: var(--buttonColor);
   margin-bottom: 20px;
@@ -35,8 +40,12 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   .searchField {
     width: 60%;
+  }
+  .header {
+    font-size: 33px;
+    padding-bottom: 0;
   }
 }

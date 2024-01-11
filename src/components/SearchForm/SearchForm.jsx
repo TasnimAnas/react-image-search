@@ -6,7 +6,7 @@ const SearchForm = () => {
   const { setQuery, query } = useGlobalContext();
   return (
     <section className="formContainer">
-      <h1>Unsplash Images</h1>
+      <h1 className="header">Image Finder</h1>
       <form
         className="searchForm"
         onSubmit={(e) => {
