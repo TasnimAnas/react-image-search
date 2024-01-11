@@ -1,0 +1,25 @@
+:root {
+  --backgroundColor: white;
+  --color: rgb(51, 51, 51);
+  --containerColor: rgb(202, 202, 202);
+  --textColor: rgba(100, 92, 255, 1);
+  --buttonColor: rgba(100, 92, 255, 1);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --backgroundColor: rgb(51, 51, 51);
+    --color: white;
+    --containerColor: rgb(26, 26, 26);
+  }
+} */
+
+body {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.dark-theme {
+  --backgroundColor: rgb(51, 51, 51);
+  --color: white;
+  --containerColor: rgb(26, 26, 26);
+}

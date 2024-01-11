@@ -1,0 +1,17 @@
+.toggleContainer {
+  text-align: right;
+}
+
+.themeButton {
+  color: var(--color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.themeButton:hover {
+  transform: scale(1.2);
+}
