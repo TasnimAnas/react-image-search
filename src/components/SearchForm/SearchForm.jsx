@@ -3,7 +3,7 @@ import { useGlobalContext } from "../../context/GlobalContext";
 import "./SearchForm.css";
 const SearchForm = () => {
   const [searchVal, setSearchVal] = useState("");
-  const { setQuery } = useGlobalContext();
+  const { setQuery, query } = useGlobalContext();
   return (
     <section className="formContainer">
       <h1>Unsplash Images</h1>
@@ -20,7 +20,7 @@ const SearchForm = () => {
           onChange={(e) => setSearchVal(e.target.value)}
           className="searchField"
           type="text"
-          placeholder="Dog"
+          placeholder={query}
         />
         <button className="searchBtn" type="submit">
           Search
