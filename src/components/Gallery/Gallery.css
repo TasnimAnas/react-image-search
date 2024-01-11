@@ -57,8 +57,7 @@
 @media screen and (max-width: 500px) {
   .galleryContainer {
     grid-template-columns: 1fr;
-  }
-  .galleryContainer {
+    row-gap: 10px;
     margin-top: 20px;
   }
 }
